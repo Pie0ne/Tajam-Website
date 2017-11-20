@@ -1,0 +1,20 @@
+{
+  "name": "Tajam-Website",
+  "version": "1.0.0",
+  "description": "Coding HTML and CSS for Tajam PSD Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pie0ne/Tajam-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pie0ne/Tajam-Website/issues"
+  },
+  "homepage": "https://github.com/Pie0ne/Tajam-Website#readme"
+}
