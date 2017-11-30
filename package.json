@@ -13,7 +13,7 @@
     "watch": "parallelshell \"npm run watch:sass\" \"npm run watch:autoprefixer\" \"npm run watch:browsersync\"",
     "watch:sass": "sass --watch style.scss:style.css",
     "watch:autoprefixer": "onchange -d 100 style.css -- autoprefixer-cli -o style.prefixed.css style.css",
-    "watch:browsersync": "browser-sync start --server --files '*.css' '*.html'"
+    "watch:browsersync": "node_modules/.bin/browser-sync start --server --files '*.css' '*.html'"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/Pie0ne/Tajam-Website/issues"
   },
-  "homepage": "https://github.com/Pie0ne/Tajam-Website#readme"
+  "homepage": "https://github.com/Pie0ne/Tajam-Website#readme",
+  "dependencies": {
+    "onchange": "^3.2.1"
+  },
+  "devDependencies": {
+    "parallelshell": "^3.0.2"
+  }
 }
