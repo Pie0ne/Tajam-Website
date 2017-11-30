@@ -93,5 +93,43 @@ body {
 	}
 }
 
-
+.story {
+	padding-top: 70px;
+	padding-bottom: 85px;
+	h3 {
+		margin-top: 0;
+		color: #413d4b;
+		font-family: "Playfair Display";
+		font-size: 22px;
+		font-weight: 600;
+		letter-spacing: 1.1px;
+		padding-bottom: 10px;
+	}
+	h5 {
+		opacity: 0.75;
+		color: #413d4b;
+		font-family: Roboto;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 22px;
+		letter-spacing: 0.42px;
+		margin-bottom: 45px;
+	}
+	p {
+		color: #00e0d0;
+		font-family: "Hammersmith One";
+		font-size: 16px;
+		font-weight: 400;
+		text-transform: uppercase;
+		border: 1px solid #00e0d0;
+		display: inline;
+		padding: 10px;
+		&:hover {
+			color: #fff;
+			background-color: #00e0d0;
+			cursor: pointer;
+			transition: .6s;
+		}
+	}
+}
 
