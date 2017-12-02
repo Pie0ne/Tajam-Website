@@ -109,4 +109,29 @@ body {
       cursor: pointer;
       transition: .6s; }
 
+.section-watch {
+  background-image: url("img/town.png");
+  padding-bottom: 550px;
+  position: relative; }
+  .section-watch .layer {
+    background-color: rgba(9, 5, 47, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 400px; }
+  .section-watch .watch-content {
+    text-align: center; }
+    .section-watch .watch-content img {
+      padding-top: 180px;
+      padding-bottom: 25px; }
+    .section-watch .watch-content h4 {
+      color: #fff;
+      font-family: "Roboto";
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      letter-spacing: 0.8px; }
+
 /*# sourceMappingURL=style.css.map */
