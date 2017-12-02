@@ -395,3 +395,58 @@ body {
 		}
 	}
 }
+
+.section-form {
+	padding-top: 40px; 
+	padding-bottom: 70px;
+	h3 {
+		color: #413d4b;
+		font-family: "Playfair Display";
+		font-size: 22px;
+		font-weight: 700;
+		letter-spacing: 1.1px;
+		padding-bottom: 25px;
+	}
+	.contact-form {
+		form {
+			input {
+				width: 80%;
+				margin-bottom: 20px;
+				padding-left: 21px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+			textarea {
+				width: 80%;
+				margin-bottom: 40px;
+				padding-left: 21px;
+				padding-top: 8px;
+				padding-bottom: 8px;
+			}
+		}
+		h4 {
+			color: #00e0d0;
+			font-family: "Hammersmith One";
+			font-size: 16px;
+			font-weight: 400;
+			text-transform: uppercase;
+			border: 1px solid #00e0d0;
+			display: inline;
+			margin: 0;
+			padding: 15px 42px;
+			margin-top: 20px;
+		}
+	}
+	.happy-clients {
+		text-align: center;
+		img {
+			padding-bottom: 40px;
+			padding-top: 10px;
+		}
+		.bilabong {
+			img {
+				padding-top: 0;
+			}
+		}
+	}
+}
