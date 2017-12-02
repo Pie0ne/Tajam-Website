@@ -241,4 +241,34 @@ body {
     display: inline;
     padding: 15px; }
 
+.section-works {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 70px; }
+  .section-works h3 {
+    padding-bottom: 60px;
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.1px; }
+  .section-works .row {
+    margin: 0; }
+  .section-works .col-lg-2 {
+    padding: 0; }
+  .section-works .photo .photo-img img {
+    padding: 0;
+    width: 100%; }
+  .section-works .load {
+    padding-top: 70px; }
+    .section-works .load h4 {
+      border: 1px solid #00e0d0;
+      color: #00e0d0;
+      font-family: "Hammersmith One";
+      font-size: 18px;
+      font-weight: 400;
+      text-transform: uppercase;
+      display: inline;
+      padding: 15px 28px; }
+
 /*# sourceMappingURL=style.css.map */
