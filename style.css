@@ -176,4 +176,69 @@ body {
     margin-top: 20px;
     padding-bottom: 40px; }
 
+.section-team {
+  background-image: url("img/newtree.png");
+  position: relative;
+  padding-bottom: 800px;
+  text-align: center; }
+  .section-team h3 {
+    color: #ffffff;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.1px;
+    padding-top: 50px;
+    padding-bottom: 10px; }
+  .section-team p {
+    color: #f9f9f9;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1.05px;
+    padding-bottom: 15px; }
+  .section-team .layer {
+    background-color: rgba(9, 5, 47, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 400px; }
+  .section-team .team-content h4 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    padding-top: 10px; }
+  .section-team .team-content p {
+    opacity: 0.7;
+    color: #fafafa;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300; }
+  .section-team .team-content img {
+    padding-top: 55px; }
+  .section-team .team-content .team-border {
+    border: 1px solid #e1e1e1;
+    margin-right: 18px;
+    margin-left: 17px; }
+  .section-team .bottom-team p {
+    color: #f3f3f3;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    padding-bottom: 30px;
+    padding-top: 70px; }
+  .section-team .bottom-team h4 {
+    color: #00e0d0;
+    font-family: "Hammersmith One";
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+    display: inline;
+    padding: 15px; }
+
 /*# sourceMappingURL=style.css.map */
