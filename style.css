@@ -134,4 +134,46 @@ body {
       text-transform: uppercase;
       letter-spacing: 0.8px; }
 
+.section-expertise {
+  text-align: center;
+  padding-top: 72px;
+  padding-bottom: 101px; }
+  .section-expertise .expertise-icons h4 {
+    color: #413d4b;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    padding-bottom: 15px; }
+  .section-expertise .expertise-icons p {
+    opacity: 0.75;
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.7px; }
+  .section-expertise .expertise-icons img {
+    padding-top: 60px;
+    padding-bottom: 20px; }
+  .section-expertise .expertise-header h3 {
+    margin-top: 0;
+    color: #413d4b;
+    font-family: "Playfair Display";
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    padding-bottom: 10px; }
+  .section-expertise .expertise-header p {
+    opacity: 0.75;
+    color: #2f2d35;
+    font-family: "Playfair Display";
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.05px; }
+  .section-expertise .expertise-header img {
+    margin-top: 20px;
+    padding-bottom: 40px; }
+
 /*# sourceMappingURL=style.css.map */

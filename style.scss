@@ -162,3 +162,55 @@ body {
 	}
 }
 
+.section-expertise {
+	text-align: center;
+	padding-top: 72px;
+	padding-bottom: 101px;
+	.expertise-icons {
+		h4 {
+			color: #413d4b;
+			font-family: "Roboto";
+			font-size: 14px;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: 0.7px;
+			padding-bottom: 15px;
+		}
+		p {
+			opacity: 0.75;
+			color: #333333;
+			font-family: 'Roboto';
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 22px;
+			letter-spacing: 0.7px;
+		}
+		img {
+			padding-top: 60px;
+			padding-bottom: 20px;
+		}
+	}
+	.expertise-header {
+		h3 {
+			margin-top: 0;
+			color: #413d4b;
+			font-family: "Playfair Display";
+			font-size: 22px;
+			font-weight: 600;
+			letter-spacing: 1.1px;
+			padding-bottom: 10px;	
+		}
+		p {
+			opacity: 0.75;
+			color: #2f2d35;
+			font-family: "Playfair Display";
+			font-size: 14px;
+			font-weight: 600;
+			letter-spacing: 1.05px;
+		}
+		img {
+			margin-top: 20px;
+    		padding-bottom: 40px;
+		}
+	}
+}
