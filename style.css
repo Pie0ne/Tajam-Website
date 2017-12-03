@@ -5,7 +5,7 @@ body {
 
 .header-section {
   background-image: url("img/put-your-image-here(5).png");
-  padding-bottom: 950px;
+  padding-bottom: 850px;
   position: relative; }
   .header-section .top-header {
     padding-top: 30px; }
@@ -108,6 +108,8 @@ body {
       background-color: #00e0d0;
       cursor: pointer;
       transition: .6s; }
+  .story .figure img {
+    padding-bottom: 40px; }
 
 .section-watch {
   background-image: url("img/town.png");
@@ -221,8 +223,8 @@ body {
     padding-top: 55px; }
   .section-team .team-content .team-border {
     border: 1px solid #e1e1e1;
-    margin-right: 18px;
-    margin-left: 17px; }
+    margin-right: 17px;
+    margin-left: 18px; }
   .section-team .bottom-team p {
     color: #f3f3f3;
     font-family: Roboto;
@@ -273,7 +275,7 @@ body {
       padding: 15px 28px; }
 
 .section-comment {
-  background-image: url("img/newtree1.png");
+  background-image: url("img/newnewtree1.png");
   padding-bottom: 550px;
   position: relative;
   text-align: center;
@@ -356,7 +358,8 @@ body {
     display: inline;
     margin: 0;
     padding: 15px 42px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-bottom: 30px; }
   .section-form .happy-clients {
     text-align: center; }
     .section-form .happy-clients img {
@@ -366,7 +369,7 @@ body {
       padding-top: 0; }
 
 .section-footer {
-  background-image: url("img/newfooter.png");
+  background-image: url("img/newnewfooter.png");
   position: relative;
   padding-bottom: 450px; }
   .section-footer .layer {
@@ -491,5 +494,134 @@ body {
     letter-spacing: 0.35px;
     padding-top: 82px;
     text-align: right; }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .figure {
+    text-align: center; }
+
+  .section-team {
+    padding-bottom: 1080px; }
+    .section-team .bottom-team p {
+      padding-top: 35px;
+      clear: both; }
+    .section-team .team-content .team-border {
+      margin-right: 110px;
+      margin-left: 110px; }
+
+  .section-form .contact-form h4 {
+    display: block;
+    width: 15%;
+    margin-bottom: 30px; }
+  .section-form .happy-clients {
+    text-align: center; }
+
+  .section-footer {
+    padding-bottom: 650px; }
+    .section-footer .last-footer {
+      text-align: center; }
+    .section-footer .tajam-footer {
+      text-align: center; }
+    .section-footer .middle-footer {
+      text-align: center; } }
+@media (min-width: 769px) and (max-width: 991px) {
+  .top-header .logo {
+    text-align: center;
+    padding-bottom: 40px; }
+
+  ul {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .story {
+    text-align: center; }
+
+  .section-team {
+    padding-bottom: 1080px; }
+    .section-team .bottom-team p {
+      padding-top: 35px;
+      clear: both; }
+    .section-team .team-content .team-border {
+      margin-right: 55px;
+      margin-left: 55px; }
+
+  .happy-clients h3 {
+    margin-top: 50px; }
+
+  .section-footer {
+    padding-bottom: 650px; }
+    .section-footer .last-footer {
+      text-align: center; }
+    .section-footer .tajam-footer {
+      text-align: center; }
+    .section-footer .middle-footer {
+      text-align: center; } }
+@media (max-width: 769px) {
+  .top-header .logo {
+    text-align: center;
+    padding-bottom: 30px; }
+  .top-header .menu ul {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .top-header .menu ul li {
+      display: block;
+      padding-bottom: 15px;
+      font-size: 14px; }
+
+  .story {
+    text-align: center; }
+
+  .section-team {
+    padding-bottom: 900px; }
+    .section-team .bottom-team p {
+      padding-top: 35px;
+      clear: both; }
+    .section-team .team-content .team-border {
+      border: 0 none;
+      margin: 0; }
+    .section-team .team-content img {
+      width: 50%;
+      padding-top: 15px; }
+
+  .section-comment {
+    padding-bottom: 1010px; }
+    .section-comment ul {
+      padding: 0 15px; }
+      .section-comment ul li {
+        display: block; }
+
+  .arrows img {
+    transform: rotate(90deg); }
+
+  .happy-clients h3 {
+    margin-top: 50px; }
+
+  .section-footer {
+    padding-bottom: 950px; }
+    .section-footer .tajam-footer {
+      text-align: center; }
+      .section-footer .tajam-footer .middle-footer {
+        text-align: center;
+        margin-left: 0; }
+        .section-footer .tajam-footer .middle-footer .location {
+          padding-top: 0; }
+        .section-footer .tajam-footer .middle-footer .tel {
+          padding-top: 10px; }
+      .section-footer .tajam-footer .last-footer {
+        text-align: center; }
+        .section-footer .tajam-footer .last-footer h4 {
+          padding-bottom: 10px;
+          padding-top: 45px; }
+      .section-footer .tajam-footer .logo-footer {
+        padding-top: 0; }
+        .section-footer .tajam-footer .logo-footer h4 {
+          padding-top: 15px;
+          padding-bottom: 0; }
+    .section-footer .footer-bottom {
+      text-align: center; }
+    .section-footer .footer-copyright p {
+      text-align: center;
+      padding-top: 22px; } }
 
 /*# sourceMappingURL=style.css.map */
