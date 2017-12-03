@@ -425,6 +425,10 @@ body {
 .section-form {
 	padding-top: 40px; 
 	padding-bottom: 70px;
+	.row {
+			margin-left: 0;
+			margin-right: 0;
+		}
 	h3 {
 		color: #413d4b;
 		font-family: "Playfair Display";
@@ -434,6 +438,8 @@ body {
 		padding-bottom: 25px;
 	}
 	.contact-form {
+
+		padding: 0 15px;
 		form {
 			input {
 				width: 80%;
@@ -472,9 +478,11 @@ body {
 	}
 	.happy-clients {
 		text-align: center;
+		padding-right: 0;
 		img {
 			padding-bottom: 40px;
 			padding-top: 10px;
+
 		}
 		.bilabong {
 			img {
@@ -759,7 +767,7 @@ body {
 	}			
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
 	.top-header {
 		.logo {
 			text-align: center;
@@ -857,5 +865,8 @@ body {
 			padding-top: 22px;
 			}
 		}
+	}
+	.logo-section {
+		text-align: center;
 	}							
 }

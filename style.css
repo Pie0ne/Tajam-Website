@@ -348,6 +348,9 @@ body {
 .section-form {
   padding-top: 40px;
   padding-bottom: 70px; }
+  .section-form .row {
+    margin-left: 0;
+    margin-right: 0; }
   .section-form h3 {
     color: #413d4b;
     font-family: "Playfair Display";
@@ -355,37 +358,40 @@ body {
     font-weight: 700;
     letter-spacing: 1.1px;
     padding-bottom: 25px; }
-  .section-form .contact-form form input {
-    width: 80%;
-    margin-bottom: 20px;
-    padding-left: 21px;
-    padding-top: 8px;
-    padding-bottom: 8px; }
-  .section-form .contact-form form textarea {
-    width: 80%;
-    margin-bottom: 40px;
-    padding-left: 21px;
-    padding-top: 8px;
-    padding-bottom: 8px; }
-  .section-form .contact-form h4 {
-    color: #00e0d0;
-    font-family: "Hammersmith One";
-    font-size: 16px;
-    font-weight: 400;
-    text-transform: uppercase;
-    border: 1px solid #00e0d0;
-    display: inline;
-    margin: 0;
-    padding: 15px 42px;
-    margin-top: 20px;
-    margin-bottom: 30px; }
-    .section-form .contact-form h4:hover {
-      background-color: #00e0d0;
-      color: #fff;
-      cursor: pointer;
-      transition: 0.5s; }
+  .section-form .contact-form {
+    padding: 0 15px; }
+    .section-form .contact-form form input {
+      width: 80%;
+      margin-bottom: 20px;
+      padding-left: 21px;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .section-form .contact-form form textarea {
+      width: 80%;
+      margin-bottom: 40px;
+      padding-left: 21px;
+      padding-top: 8px;
+      padding-bottom: 8px; }
+    .section-form .contact-form h4 {
+      color: #00e0d0;
+      font-family: "Hammersmith One";
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: uppercase;
+      border: 1px solid #00e0d0;
+      display: inline;
+      margin: 0;
+      padding: 15px 42px;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      .section-form .contact-form h4:hover {
+        background-color: #00e0d0;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s; }
   .section-form .happy-clients {
-    text-align: center; }
+    text-align: center;
+    padding-right: 0; }
     .section-form .happy-clients img {
       padding-bottom: 40px;
       padding-top: 10px; }
@@ -597,7 +603,7 @@ body {
       text-align: center; }
     .section-footer .middle-footer {
       text-align: center; } }
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .top-header .logo {
     text-align: center;
     padding-bottom: 30px; }
@@ -663,6 +669,9 @@ body {
       text-align: center; }
     .section-footer .footer-copyright p {
       text-align: center;
-      padding-top: 22px; } }
+      padding-top: 22px; }
+
+  .logo-section {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
