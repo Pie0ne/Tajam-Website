@@ -34,12 +34,14 @@ body {
           color: #00e0d0;
           cursor: pointer;
           transition: 0.5s; }
-  .header-section .logo p {
-    font-family: 'Roboto', sans-serif;
-    color: #00e0d0;
-    font-size: 30px;
-    font-weight: 200;
-    display: inline-block; }
+  .header-section .logo {
+    cursor: pointer; }
+    .header-section .logo p {
+      font-family: 'Roboto', sans-serif;
+      color: #00e0d0;
+      font-size: 30px;
+      font-weight: 200;
+      display: inline-block; }
   .header-section .main-header {
     text-align: center; }
     .header-section .main-header h3 {
@@ -109,7 +111,8 @@ body {
       cursor: pointer;
       transition: .6s; }
   .story .figure img {
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    cursor: pointer; }
 
 .section-watch {
   background-image: url("img/town.png");
@@ -127,7 +130,8 @@ body {
     text-align: center; }
     .section-watch .watch-content img {
       padding-top: 180px;
-      padding-bottom: 25px; }
+      padding-bottom: 25px;
+      cursor: pointer; }
     .section-watch .watch-content h4 {
       color: #fff;
       font-family: "Roboto";
@@ -135,6 +139,10 @@ body {
       font-weight: 400;
       text-transform: uppercase;
       letter-spacing: 0.8px; }
+      .section-watch .watch-content h4:hover {
+        color: #00e0d0;
+        cursor: pointer;
+        transition: 0.5s; }
 
 .section-expertise {
   text-align: center;
@@ -158,7 +166,8 @@ body {
     letter-spacing: 0.7px; }
   .section-expertise .expertise-icons img {
     padding-top: 60px;
-    padding-bottom: 20px; }
+    padding-bottom: 20px;
+    cursor: pointer; }
   .section-expertise .expertise-header h3 {
     margin-top: 0;
     color: #413d4b;
@@ -242,6 +251,11 @@ body {
     border: 1px solid #00e0d0;
     display: inline;
     padding: 15px; }
+    .section-team .bottom-team h4:hover {
+      color: #fff;
+      cursor: pointer;
+      transition: 0.5s;
+      background-color: #00e0d0; }
 
 .section-works {
   text-align: center;
@@ -273,6 +287,11 @@ body {
       text-transform: uppercase;
       display: inline;
       padding: 15px 28px; }
+      .section-works .load h4:hover {
+        background-color: #00e0d0;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.5s; }
 
 .section-comment {
   background-image: url("img/newnewtree1.png");
@@ -360,6 +379,11 @@ body {
     padding: 15px 42px;
     margin-top: 20px;
     margin-bottom: 30px; }
+    .section-form .contact-form h4:hover {
+      background-color: #00e0d0;
+      color: #fff;
+      cursor: pointer;
+      transition: 0.5s; }
   .section-form .happy-clients {
     text-align: center; }
     .section-form .happy-clients img {
@@ -455,6 +479,8 @@ body {
       opacity: 0.5;
       padding: 17px;
       display: inline; }
+    .section-footer .tajam-footer .last-footer img {
+      cursor: pointer; }
     .section-footer .tajam-footer .last-footer .footer-icons {
       display: block;
       color: #fff;
@@ -468,6 +494,12 @@ body {
         font-size: 20px;
         line-height: 40px;
         margin-right: 10px; }
+        .section-footer .tajam-footer .last-footer .footer-icons i:hover {
+          background-color: #00e0d0;
+          color: #fff;
+          cursor: pointer;
+          transition: 0.5s;
+          border: 1px solid #00e0d0; }
     .section-footer .tajam-footer .last-footer img {
       border: 2px solid #ffffff;
       background-color: #ffffff;
@@ -484,7 +516,12 @@ body {
       font-size: 14px;
       font-weight: 400;
       line-height: 26px;
-      letter-spacing: 0.35px; }
+      letter-spacing: 0.35px;
+      padding-right: 10px; }
+      .section-footer .footer-bottom ul li:hover {
+        color: #00e0d0;
+        cursor: pointer;
+        transition: .5s; }
   .section-footer .footer-copyright p {
     color: #ffffff;
     font-family: 'Roboto';
@@ -494,6 +531,10 @@ body {
     letter-spacing: 0.35px;
     padding-top: 82px;
     text-align: right; }
+    .section-footer .footer-copyright p:hover {
+      color: #00e0d0;
+      cursor: pointer;
+      transition: .5s; }
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .figure {
