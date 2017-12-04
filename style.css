@@ -230,6 +230,10 @@ body {
     font-weight: 300; }
   .section-team .team-content img {
     padding-top: 55px; }
+    .section-team .team-content img:hover {
+      opacity: 0.2;
+      transition: 0.5s;
+      cursor: pointer; }
   .section-team .team-content .team-border {
     border: 1px solid #e1e1e1;
     margin-right: 17px;
@@ -274,7 +278,11 @@ body {
     padding: 0; }
   .section-works .photo .photo-img img {
     padding: 0;
-    width: 100%; }
+    width: 100%;
+    cursor: pointer; }
+    .section-works .photo .photo-img img:hover {
+      opacity: 0.5;
+      transition: .5s; }
   .section-works .load {
     padding-top: 90px;
     padding-bottom: 40px; }
@@ -343,7 +351,8 @@ body {
     padding-bottom: 35px; }
   .section-comment ul li {
     display: inline-block;
-    padding: 15px; }
+    padding: 15px;
+    cursor: pointer; }
 
 .section-form {
   padding-top: 40px;
@@ -394,7 +403,8 @@ body {
     padding-right: 0; }
     .section-form .happy-clients img {
       padding-bottom: 40px;
-      padding-top: 10px; }
+      padding-top: 10px;
+      cursor: pointer; }
     .section-form .happy-clients .bilabong img {
       padding-top: 0; }
 
@@ -423,6 +433,7 @@ body {
     .section-footer .tajam-footer ul li {
       display: inline-block; }
     .section-footer .tajam-footer .logo-footer {
+      cursor: pointer;
       padding-top: 20px; }
       .section-footer .tajam-footer .logo-footer p {
         font-family: 'Roboto', sans-serif;
