@@ -523,7 +523,7 @@ body {
       font-weight: 400;
       line-height: 26px;
       letter-spacing: 0.35px;
-      padding-right: 10px; }
+      padding-right: 5px; }
       .section-footer .footer-bottom ul li:hover {
         color: #00e0d0;
         cursor: pointer;
@@ -558,7 +558,8 @@ body {
   .section-form .contact-form h4 {
     display: block;
     width: 15%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    margin-top: 10px; }
   .section-form .happy-clients {
     text-align: center; }
 
@@ -569,11 +570,16 @@ body {
     .section-footer .tajam-footer {
       text-align: center; }
     .section-footer .middle-footer {
-      text-align: center; } }
-@media (min-width: 769px) and (max-width: 991px) {
+      text-align: center; }
+
+  .logo-section {
+    text-align: center; } }
+@media (min-width: 768px) and (max-width: 991px) {
   .top-header .logo {
     text-align: center;
     padding-bottom: 40px; }
+  .top-header .logo-section {
+    text-align: center; }
 
   ul {
     text-align: center;
@@ -603,10 +609,12 @@ body {
       text-align: center; }
     .section-footer .middle-footer {
       text-align: center; } }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .top-header .logo {
     text-align: center;
     padding-bottom: 30px; }
+  .top-header .logo-section {
+    text-align: center; }
   .top-header .menu ul {
     text-align: center;
     padding-left: 15px;
@@ -637,6 +645,8 @@ body {
       padding: 0 15px; }
       .section-comment ul li {
         display: block; }
+    .section-comment h5 {
+      padding-bottom: 10px; }
 
   .arrows img {
     transform: rotate(90deg); }
@@ -660,6 +670,10 @@ body {
         .section-footer .tajam-footer .last-footer h4 {
           padding-bottom: 10px;
           padding-top: 45px; }
+        .section-footer .tajam-footer .last-footer img {
+          margin-left: 0; }
+        .section-footer .tajam-footer .last-footer .footer-icons i {
+          margin-right: 5px; }
       .section-footer .tajam-footer .logo-footer {
         padding-top: 0; }
         .section-footer .tajam-footer .logo-footer h4 {
