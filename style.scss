@@ -437,17 +437,17 @@ body {
 	padding-top: 40px; 
 	padding-bottom: 70px;
 	.row {
-			margin-left: 0;
-			margin-right: 0;
+		margin-left: 0;
+		margin-right: 0;
 		}
-	h3 {
+		h3 {
 		color: #413d4b;
-		font-family: "Playfair Display";
-		font-size: 22px;
-		font-weight: 700;
-		letter-spacing: 1.1px;
-		padding-bottom: 25px;
-	}
+			font-family: "Playfair Display";
+			font-size: 22px;
+			font-weight: 700;
+			letter-spacing: 1.1px;
+			padding-bottom: 25px;
+		}
 	.contact-form {
 		padding: 0 15px;
 		form {
@@ -657,9 +657,9 @@ body {
 				letter-spacing: 0.35px;
 				padding-right: 5px;
 				&:hover {
-				color: #00e0d0;
-				cursor: pointer;
-				transition: .5s;
+					color: #00e0d0;
+					cursor: pointer;
+					transition: .5s;
 				}
 			}
 		}
@@ -682,7 +682,6 @@ body {
 		}
 	}
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
 	.figure {
@@ -731,7 +730,7 @@ body {
 	.logo-section {
 			text-align: center;
 		}
-}
+	}
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.top-header {
@@ -833,7 +832,6 @@ body {
 		padding-bottom: 1010px;
 		ul {
 			padding: 0 15px;
-
 			li {
 				display: block;
 			}
