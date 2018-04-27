@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/Pie0ne/Tajam-Website#readme",
   "dependencies": {
-    "onchange": "^3.2.1"
+    "onchange": "^3.3.0"
   },
   "devDependencies": {
     "parallelshell": "^3.0.2"
