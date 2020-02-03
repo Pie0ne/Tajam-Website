@@ -6,6 +6,7 @@ body {
 .header-section {
   background-image: url("img/put-your-image-here(5).png");
   padding-bottom: 850px;
+  background-size: 100% 100%;
   position: relative; }
   .header-section .top-header {
     padding-top: 30px; }
