@@ -192,6 +192,7 @@ body {
   background-image: url("img/newtree.png");
   position: relative;
   padding-bottom: 800px;
+  background-size: cover;
   text-align: center; }
   .section-team h3 {
     color: #ffffff;
@@ -307,6 +308,7 @@ body {
   padding-bottom: 550px;
   position: relative;
   text-align: center;
+  background-size: cover;
   padding-top: 70px; }
   .section-comment .layer {
     background-color: rgba(9, 5, 47, 0.7);
@@ -412,6 +414,7 @@ body {
 .section-footer {
   background-image: url("img/newnewfooter.png");
   position: relative;
+  background-size: cover;
   padding-bottom: 450px; }
   .section-footer .layer {
     background-color: rgba(9, 5, 47, 0.7);
