@@ -28,6 +28,7 @@
   "homepage": "https://github.com/Pie0ne/Tajam-Website#readme",
   "dependencies": {
     "braces": "^3.0.2",
+    "kind-of": "^6.0.3",
     "onchange": "^3.3.0",
     "randomatic": "^3.1.0"
   },
